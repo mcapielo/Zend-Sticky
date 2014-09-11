@@ -1,24 +1,7 @@
-# **Zend Framework 2** 
-
-## About **Zend Framework 2**
+# **Zend Framework 2 CRUD** 
 
 
-
-## Documentation and resources
-
-### Additional Information
-#### Terminal.com container automatic installation
-You can replicate this container from a [base snapshot](https://www.terminal.com/tiny/XXXXXXXXXXX) by excuting
-
-`wget https://raw.githubusercontent.com/qmaxquique/terminal.com/master/XXXXXXXX_installer.sh &&  bash XXXXXXXXXXX_installer.sh`
-
----
-
-#### Thanks for using Zend Framework 2 at Terminal.com!
-
-
-
-#Installation
+##Installation
 -------------
 -------------
 
@@ -27,14 +10,14 @@ You can replicate this container from a [base snapshot](https://www.terminal.com
 3.``` cd Zend-Sticky && composer install ```
 
 
-#Database
+##Database
 --------
 --------
 1. Run ``` mysql -u [user] -p stickynotes < schema.sql ``` to create the schema.
 2. Run ``` mysql -u [user] -p stickynotes < inserts.sql ``` to inserts some notes as examples.
 
 
-#Database Configuration
+##Database Configuration
 -----------------------
 -----------------------
 
@@ -49,7 +32,7 @@ You can replicate this container from a [base snapshot](https://www.terminal.com
         ),
     );
 ```
-#Virtual Host
+##Virtual Host
 -------------
 -------------
 
